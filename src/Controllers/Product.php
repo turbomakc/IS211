@@ -20,7 +20,10 @@ class Product {
             }
         }
 
-      
+        /*$code = 404;  
+        $text = 'Not Found';  
+        $protocol = (isset($_SERVER['SERVER_PROTOCOL']) ? $_SERVER['SERVER_PROTOCOL'] : 'HTTP/1.0');
+        header($protocol . ' ' . $code . ' ' . $text);*/
         return '404';
     }
     public function getAll(): string

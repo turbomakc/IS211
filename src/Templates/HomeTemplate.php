@@ -32,13 +32,13 @@ class HomeTemplate extends BaseTemplate {
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./img/becon_krasburgers.jpg" class="d-block w-100 h-100" alt="1">
+              <img src="./img/BORSH1.jpg" class="d-block w-100 h-100" alt="1">
             </div>
             <div class="carousel-item">
-              <img src="./img/chika_burgers.jpg" class="d-block w-100 h-100" alt="3">
+              <img src="./img/buter.jpg" class="d-block w-100 h-100" alt="3">
             </div>
             <div class="carousel-item">
-              <img src="./img/double_bamburgers.jpg" class="d-block w-100 h-100" alt="2">
+              <img src="./img/salat.jpg" class="d-block w-100 h-100" alt="2">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -55,7 +55,7 @@ class HomeTemplate extends BaseTemplate {
     
         <div class="row mt-5">
             <p>
-                Приглашаем в наш онлайн магазин автозапчастей "MaximAUTO"!
+                Приглашаем в наше онлайн-кафе быстрого питания "Быстро вкусно"!
             </p>
             <p>
                 Листайте каталог и добавляйте товар в корзину, нажимая кнопку "Купить".

@@ -16,7 +16,7 @@ class Order {
             try {
                 $mail->SMTPDebug = 2;
                 $mail->CharSet = 'UTF-8';
-                $mail->SetFrom("v.milevskiy@coopteh.ru","MaximAUTO");
+                $mail->SetFrom("v.milevskiy@coopteh.ru","Грилька");
                 $mail->addAddress($email);
                 $mail->isHTML(true);
                 $mail->isSMTP();                                            //Send using SMTP
@@ -26,8 +26,8 @@ class Order {
                 $mail->Password   = 'hF8xTWxXyKcCnEg1n9Wz';
                 $mail->Port       = 465;
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-                $mail->Subject = 'Заявка с сайта: MaximAUTO';
-                $mail->Body = 'Информационное сообщение c сайта MaximAUTO <br><br>
+                $mail->Subject = 'Заявка с сайта: Грилька';
+                $mail->Body = 'Информационное сообщение c сайта Грилька <br><br>
                 ------------------------------------------<br>
                 <br>
                 Спасибо!<br>
